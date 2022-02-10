@@ -1,1 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(170, 195, 223);
+}
+.wraper {
+  background-color: white;
+  width: 50%;
+  height: 400px; 
+  margin: 60px auto;
+  padding: 30px;
+}
+.form {
+  position: relative;
+  padding-top: 30px;
+
+}
+.size {
+  margin: 5px 0 20px 0;
+  width: 60%;
+  height: 25px;
+} 
+ .title {
+  font-size: 14px;
+} 
+ .btn {
+  position: absolute;
+  width: 75px;
+  height: 25px;
+  background-color: steelblue;
+  color: white;
+  right: 250px;
+  bottom: -20px;
+}
+/* modal-window */
+.modal-window {
+  /* display: none; */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(170, 195, 223, 0.9 );
+}
+.modal-content {
+  background-color: grey;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid rgb(37, 65, 102);
+  width: 50%;
+}
+.modal-btn {
+  float: right;
+  cursor: pointer;
+}
+.btn-ok {
+  margin-left: 15px;
+}
+ .modal-btn:hover {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+/* [hidden] { display: none !important;} */

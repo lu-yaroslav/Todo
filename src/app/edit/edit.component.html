@@ -1,0 +1,9 @@
+<div  class="modal-window">
+  <div class="modal-content">
+    <label for="">
+      <textarea  [(ngModel)]="description" class="modal-edit"  cols="30" type="text" rows="10" placeholder="Next text of todo item..."></textarea>
+    </label>
+    <button (click)="save()" class="modal-btn btn-ok" >OK</button>
+    <button (click)="close()" class="modal-btn btn-cancel" >Отмена</button>
+  </div>
+</div>  
